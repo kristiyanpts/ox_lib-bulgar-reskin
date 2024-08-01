@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true,
+    "module": "CommonJS",
+    "types": ["@types/node", "@citizenfx/client", "@citizenfx/server"],
+    "declaration": true,
+    "sourceMap": true,
+    "target": "ESNext",
+    "allowJs": false,
+    "lib": ["ESNext"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitAny": true
+  },
+  "include": ["client", "server", "shared"],
+  "exclude": ["**/node_modules"]
+}
